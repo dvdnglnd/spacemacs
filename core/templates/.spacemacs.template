@@ -20,7 +20,7 @@
      ;; auto-completion
      ;; better-defaults
      emacs-lisp
-     git
+     ;; git
      markdown
      org
      python
@@ -51,7 +51,7 @@ before layers configuration."
   (setq-default
    ;; Either `vim' or `emacs'. Evil is always enabled but if the variable
    ;; is `emacs' then the `holy-mode' is enabled at startup.
-   dotspacemacs-editing-style 'vim
+   dotspacemacs-editing-style 'emacs
    ;; If non nil output loading progress in `*Messages*' buffer.
    dotspacemacs-verbose-loading nil
    ;; Specify the startup banner. Default value is `official', it displays
@@ -117,7 +117,7 @@ before layers configuration."
    dotspacemacs-loading-progress-bar t
    ;; If non nil the frame is fullscreen when Emacs starts up.
    ;; (Emacs 24.4+ only)
-   dotspacemacs-fullscreen-at-startup nil
+   dotspacemacs-fullscreen-at-startup t
    ;; If non nil `spacemacs/toggle-fullscreen' will not use native fullscreen.
    ;; Use to disable fullscreen animations in OSX."
    dotspacemacs-fullscreen-use-non-native nil
